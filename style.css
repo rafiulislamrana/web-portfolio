@@ -5,7 +5,13 @@
 }
 
 section{
-    margin-top: 20px;
+    height: 500px;
+}
+
+.top-section{
+    background-image: url("assets/images/top-banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 h1{
@@ -31,11 +37,13 @@ h1 .color{
 .left-content{
     float: left;
     width: 40%;
+    margin-top: 10px;
 }
 
 .right-content{
     float: left;
     width: 40%;
+    margin-top: 10px;
 }
 
 .text-container h3{
