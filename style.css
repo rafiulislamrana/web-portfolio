@@ -83,6 +83,10 @@ p{
 }
 
 .second-section{
+    background-image: url("assets/images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: bottom;
     overflow: hidden;
 }
 
