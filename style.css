@@ -74,12 +74,13 @@ p{
 
 .image img{
     width: 100%;
+    margin-left: 50px;
 }
 
 .half-side{
     width: 40%;
     float: left;
-    margin-top: 100px;
+    
 }
 
 .second-section{
@@ -87,7 +88,9 @@ p{
     background-repeat: no-repeat;
     background-position: right;
     background-position-y: bottom;
+    margin: 150px 0px;
     overflow: hidden;
+    width: 100%;
 }
 
 .image1 img{
@@ -95,7 +98,7 @@ p{
 }
 
 .text-container2{
-    margin-top: 140px;
+    margin-top: 40px;
     margin-left: 75px;
 }
 
@@ -117,3 +120,49 @@ p{
     border-radius: 5px;
 }
 
+.exp-area{
+    overflow: hidden;
+    width: 100%;
+    background-image: url("assets/images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position-y: 250px;
+    background-size: 120px;
+}
+
+.exp-h1{
+    margin-bottom: 35px;
+}
+
+.half-exp{
+    width: 40%;
+    float: left;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 8px;
+    padding: 25px 10px 0px 25px;
+    height: 350px; !important
+}
+
+#first-exp{
+    border-left: 7px solid;
+    border-image: linear-gradient(#ff9e79 , #ff6c4f);
+    border-image-slice: 1;
+}
+
+#second-exp{
+    margin-left: 50px;
+    border-left: 7px solid;
+    border-image: linear-gradient(#0008ff , #01f1ff);
+    border-image-slice: 1;
+}
+
+.orange{
+    margin: 50px 0px 20px 0px;
+    color: rgb(255, 166, 0);
+    font-weight: 700;
+}
+
+footer p{
+    margin: 130px 0px 10px 0px;
+    text-align: center;
+    font-size: 15px;
+}
